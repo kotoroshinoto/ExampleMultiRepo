@@ -5,7 +5,7 @@ description = "\"n/a\""
 authors = [
     {name = "Michael Gooch", email = "goochmi@gmail.com"},
 ]
-dependencies = []
+dependencies = ["pandas>=2.2.3"]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "\"The Unlicense\""}
