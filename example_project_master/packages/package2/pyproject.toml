@@ -1,0 +1,19 @@
+[project]
+name = "example-project-package2"
+version = "0.1.0"
+description = "\"n/a\""
+authors = [
+    {name = "Michael Gooch", email = "goochmi@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "\"The Unlicense\""}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
